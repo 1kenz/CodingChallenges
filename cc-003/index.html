@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Form</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__head">Checkout</h1>
+    </header>
+
+    <main class="main">
+        <div class="main__container">
+
+            <div class="main__container--chart">
+
+                <div class="main__container--chart-item1">
+                    <img src="./images/photo1.png" alt="vintage-backbag">
+                    <div class="main__container--chart-item1-container">
+                        <h3>Vintage Backbag</h3>
+                        <p>$54.99 <span>$94.99</span></p>
+                        <p> <span>-</span>1<span>+</span></p>
+                    </div>
+                </div>
+
+                <div class="main__container--chart-item2">
+                    <img src="./images/photo2.png" alt="levi-shoes">
+                    <div class="main__container--chart-item2-container">
+                        <h3>Levi Shoes</h3>
+                        <p>$74.99 <span>$124.99</span></p>
+                        <p> <span>-</span>1<span>+</span></p>
+                    </div>
+                </div>
+
+                <div class="main__container--chart-pay">
+                    <p>Shipping <span>$19</span></p>
+                    <p>Total <span>$148.98</span></p>
+                </div>
+            </div>
+
+            <div class="main__container--info">
+
+                <div class="main__container--info-contact">
+                    <h3>Contact information</h3>
+                    <label>Email <br> <i class="fas fa-envelope" aria-hidden="true"></i><input type="email" name="email" id="email" placeholder="Enter your email..."></label><br>
+                    <label>Phone <br>  <i class="fas fa-phone-alt" aria-hidden="true"></i><input type="tel" name="phone" id="phone" placeholder="Enter your phone..."></label>
+                </div>
+                <i class="fas fa-envelope" aria-hidden="true"></i>
+                <div class="main__container--info-shipping">
+                    <h3>Shipping address</h3>
+                    <label>Full name <br> <i class="fas fa-user" aria-hidden="true"></i><input type="text" name="name" id="name" placeholder="Enter your fullname"></label><br>
+                    <label>Address <br> <i class="fas fa-home" aria-hidden="true"></i><input type="text" name="address" id="address" placeholder="Enter your address..."></label><br>
+                    <label>City <br> <i class="fas fa-city" aria-hidden="true"></i><input type="text" name="city" id="city" placeholder="enter your city..."></label><br>
+                    <div>
+                        <label>Country <br><i class="fas fa-globe-europe" aria-hidden="true"></i><select name="country" id="country">
+                <option value="turkey">Turkey</option>
+                <option value="germany">Germany</option>
+                <option value="usa">USA</option>
+                <option value="uk" selected>UK</option>
+            </select></label><br>
+                        <label>Post Code <br> <i class="fas fa-mail-bulk" aria-hidden="true"></i><input type="text" name="zip" id="zip" inputmode="numeric" minlength="5" maxlength="5" pattern="^(?(^00000(|-0000))|(\d{5}(|-\d{4})))$" placeholder="Enter your postal code..."></label><br>
+                    </div>
+                    <input type="checkbox" id="info" name="info" value="checkbox"> See this information next time<br>
+                </div>
+            </div>
+        </div>
+
+        <div class="main__container--info-button">
+            <input type="submit" name="button" id="button" value="Continue">
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,7 +1,7 @@
 # HTML & CSS & JS Coding Challenges
 
 ## Click see my CodingChallenges: https://xkendx.github.io/CodingChallenges/
-<br><hr>
+<br>
 
 List of coding challenges within <strong>HTML & CSS</strong> workshop as follows;
 

@@ -14,7 +14,7 @@ List of coding challenges within <strong>HTML & CSS</strong> workshop as follows
 
 
 
-<br><hr>
+<br>
 
 List of coding challenges within <strong>JavaScript</strong> workshop as follows;
 

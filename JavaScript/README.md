@@ -1,4 +1,4 @@
-# HTML&CSS Plus Coding Challenges
+# JavaScript Coding Challenges
 
 ## Click see my CodingChallenges: https://xkendx.github.io/CodingChallenges/
 

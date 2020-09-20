@@ -1,3 +1,16 @@
+body {
+  font-family: Mon, Arial, Helvetica, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -337,63 +350,181 @@ template {
   display: none;
 }
 
-* {
-  font-family: "Montserrat", sans-serif;
-}
-
-html,
-body {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.header {
+.section__left {
+  margin-left: 160px;
+  margin-right: 40px;
   width: 100%;
-  text-align: center;
-  font-size: 16px;
+}
+.section__left--contactinfo {
+  margin-bottom: 50px;
+}
+.section__left--contactinfo p {
   font-weight: 700;
+  font-size: 18;
+}
+.section__left--contactinfo-email label {
+  font-weight: 400;
+  font-size: 12px;
+  color: #C0C0C0;
+  margin-bottom: 10px;
+}
+.section__left--contactinfo-email_1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #828282;
+  border: 3px solid black;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+}
+.section__left--contactinfo-email_1 i {
+  padding-left: 10px;
+}
+.section__left--contactinfo-email_1 .input {
+  border: none;
+  width: 90%;
+  height: 90%;
+  outline: none;
 }
 
-.main__container {
-  display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.input {
+  border: none;
+  width: 90%;
+  height: 90%;
+  outline: none;
 }
-.main__container--chart {
-  background-color: #EEEEEE;
+
+.leftdiv {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #828282;
+  border: 1px solid black;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.fas {
+  padding-left: 10px;
+}
+
+.section__left--shipping-countrypostcode {
+  display: flex;
+}
+
+#country, #postcode {
+  height: 90%;
+  border: none;
+}
+
+.section__left--shipping-countrypostcode-postcode {
+  margin-left: 30px;
+}
+
+.section__left--shipping-checkbox {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#button {
+  float: right;
+  width: 75px;
+  height: 40px;
+  color: white;
+  background-color: #f2994a;
+  border: none;
   border-radius: 10px;
-  width: 340px;
-  height: 390px;
-  margin: 1px;
 }
-.main__container--chart img {
-  margin: 25px;
-  width: 100px;
-  height: 110px;
-  border-radius: 15px;
+
+.section__right {
+  margin-right: 90px;
+  width: 100%;
+  background-color: #EEEEEE;
+  border-radius: 5px;
 }
-.main__container--chart-item1 {
+.section__right--backbag {
   display: flex;
 }
-.main__container--chart-item1 p {
-  margin: 25px;
-  color: #F1A373;
+.section__right--backbag img {
+  width: 96px;
+  height: 111px;
+  margin: 20px;
+  border-radius: 5px;
 }
-.main__container--chart-item1 p-container span {
+.section__right--backbag-right p span:first-child {
+  color: #F2994A;
+  font-weight: 600;
+  font-size: 16px;
+}
+.section__right--backbag-right p span:last-child {
   text-decoration: line-through;
-  color: black;
+  font-weight: 400;
+  font-size: 12px;
 }
-.main__container--chart-item2 {
+.section__right--backbag-right-counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.section__right--backbag-right-counter button {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.section__right--shoe {
   display: flex;
 }
-.main__container--chart-item2 p {
-  margin: 25px;
+.section__right--shoe img {
+  width: 96px;
+  height: 111px;
+  margin: 20px;
+  border-radius: 5px;
 }
-.main__container--chart-pay p {
-  margin: 10px 25px;
-  border-top: 2px solid #BFBFBF;
+.section__right--shoe-right p span:first-child {
+  color: #F2994A;
+  font-weight: 600;
+  font-size: 16px;
 }
-.main__container--chart-pay span {
-  margin-left: 185px;
+.section__right--shoe-right p span:last-child {
+  text-decoration: line-through;
+  font-weight: 400;
+  font-size: 12px;
 }
+.section__right--shoe-right-counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.section__right--shoe-right-counter button {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.section__right--shipping {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  margin: 60px 50px 5px 20px;
+}
+.section__right--total {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  margin: 10px 50px 5px 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

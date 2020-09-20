@@ -4,4 +4,4 @@
 
 List of coding challenges within <strong>JavaScript</strong> workshop as follows;
 
-- [JS-CC-001 : Fibonacci Number](./JavaScript/cc-004/index.html)
+- [JS-CC-001 : Fibonacci Number](./JavaScript/js-cc-001/index.html)

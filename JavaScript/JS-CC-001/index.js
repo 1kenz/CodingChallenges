@@ -27,7 +27,7 @@ function fibonacci(number) {
         document.getElementById('inp').value = '';
         document.getElementById('inp').focus();
     } else {
-        while (x < (number)) {
+        while (x < number) {
             var c = a + b;
             a = b;
             b = c;
